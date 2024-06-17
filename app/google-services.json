@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1059684231709",
+    "firebase_url": "https://the-beginning-898e8-default-rtdb.firebaseio.com",
+    "project_id": "the-beginning-898e8",
+    "storage_bucket": "the-beginning-898e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059684231709:android:c667f9295b53a30a4ab4f4",
+        "android_client_info": {
+          "package_name": "com.example.artchain"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX86eFOon_GkhxDliqite4mQI70xoD0xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

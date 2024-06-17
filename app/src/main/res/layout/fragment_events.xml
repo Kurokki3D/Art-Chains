@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Events">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blacksmith_animation">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="331dp"
+                    app:cardBackgroundColor="#99FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/the_event"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New event here"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="#6D2200"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1004dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/note_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#320000"
+                            android:text="The Micro Event"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/note"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Be The first to click the button below and  youll get the right to post todays Event"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/win"
+            android:layout_width="358dp"
+            android:layout_height="98dp"
+            android:foreground="?attr/actionModeSelectAllDrawable"
+            android:foregroundTint="#B52D2D"
+            android:text="."
+            app:layout_constraintBottom_toBottomOf="@+id/nestedScrollView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

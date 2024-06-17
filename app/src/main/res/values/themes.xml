@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ArtChain" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#112124</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ArtChain" parent="Base.Theme.ArtChain" />
+
+
+<!--    Making a new theme here use that name to tell that its a chile of Theme.ArtChain-->
+    <style name="Theme.ArtChain.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+        <item name="android:textColorPrimary">#FF0000</item>
+        <item name="android:textColorSecondary">#FF8400</item>
+        <item name="android:textColor">#DC998E</item>
+    </style>
+</resources>
